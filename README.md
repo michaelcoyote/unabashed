@@ -1,15 +1,21 @@
-# Bash it
+# unabashed
 
-**Bash it** is a mash up of my own bash commands and scripts, other bash stuff I have found.
+**unabashed** is a full on fork of *Bash It* that I am in the process of cleaning up and simplifing.
 
-(And a shameless ripoff of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). :)
+It is **NOT** ready for use at this time, but hope to clean it up and simplify it for use.
 
-Includes autocompletion, themes, aliases, custom functions, a few stolen pieces from Steve Losh, and more.
+## Things I want to fix
+
+1. *probably* remove all aliases (still considering some simple ones) - The idea here is to provide a stripped environment that won't clobber your own customizations.  Also single letter aliases that log you out of your session are straight up dumb y'all.
+2. Currently bash-it only works with login shells (making it hard to work with Linux). - Fix that (guessing this means testing it with `.bashrc`)
+3. *add lightness* - remove other cruft and unneeded junk
+4. Simplify install as needed.
+5. IDK, other stuff i guess..  whatevs.  - ¯\_(ツ)_/¯
 
 ## Install
 
-1. Check a clone of this repo: `git clone https://github.com/revans/bash-it.git ~/.bash_it`
-2. Run `~/.bash_it/install.sh` (it automatically backs up your `~/.bash_profile`)
+1. Check a clone of this repo: `git clone https://github.com/michaelcoyote/unabashed.git ~/.bash_unablashed`
+2. Run `~/.bash_unabashed/install.sh` (it automatically backs up your `~/.bash_profile`)
 3. Edit your `~/.bash_profile` file in order to customize bash-it.
 
 **NOTE:**
